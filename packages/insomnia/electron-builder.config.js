@@ -51,11 +51,11 @@ const config = {
     target: [
       {
         target: 'dmg',
-        arch: 'universal',
+        arch: 'arm64',
       },
       {
         target: 'zip',
-        arch: 'universal',
+        arch: 'arm64',
       },
     ],
     extendInfo: {

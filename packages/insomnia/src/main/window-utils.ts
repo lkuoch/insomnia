@@ -68,7 +68,7 @@ export function createWindow() {
     x: isVisibleOnAnyDisplay ? x : undefined,
     y: isVisibleOnAnyDisplay ? y : undefined,
     // Other options
-    backgroundColor: '#2C2C2C',
+    backgroundColor: '#303446',
     fullscreen: fullscreen,
     fullscreenable: true,
     title: getProductName(),
@@ -87,6 +87,9 @@ export function createWindow() {
       contextIsolation: false,
       disableBlinkFeatures: 'Auxclick',
     },
+    transparent: true,
+    opacity: 0.9,
+    titleBarStyle: 'hidden',
   });
 
   // BrowserWindow doesn't have an option for this, so we have to do it manually :(
